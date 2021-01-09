@@ -2,4 +2,4 @@
 A simple module bundler implemented with javascript and babel.
 
 ## License
-MIT
+[MIT](https://github.com/tjcchen/simple-module-bundler/blob/main/LICENSE)
