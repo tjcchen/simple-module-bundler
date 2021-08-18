@@ -3,7 +3,7 @@ A simple module bundler implemented with javascript and babel.
 
 ## Mechanism Explained
 In this repo, we implement a very simple module bundler, whose functionality is similar to [webpack](https://github.com/webpack/webpack). Several NPM modules are very important in the whole building process.
-1. [babylon](https://github.com/babel/babylon) module, currently known as [@babel/parser](https://github.com/babel/babel/tree/master/packages/babel-parser), is used to convert es6 new syntax to AST(Abstract Syntax Tree) tree structure.
+1. [babylon](https://github.com/babel/babylon) module, currently known as [@babel/parser](https://github.com/babel/babel/tree/master/packages/babel-parser), is used to convert es6 new syntax to AST(Abstract Syntax Tree) tree structure.【acornjs - https://github.com/acornjs/acorn】
 2. [babel-traverse](https://github.com/babel/babel/tree/master/packages/babel-traverse) module, currently known as [@babel/traverse](https://github.com/babel/babel/tree/master/packages/babel-traverse), is used to analyze the module dependencies( namely imported modules ) in es6 code.
 3. `transformFromAst` method coming from [babel-core](https://github.com/babel/babel/tree/master/packages/babel-core), currently known as [@babel/core](https://github.com/babel/babel/tree/master/packages/babel-core), is used to transforms AST tree structure to es5 code.
 
